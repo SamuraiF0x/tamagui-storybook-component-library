@@ -1,0 +1,18 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode",
+		"yoavbls.pretty-ts-errors",
+		"mattpocock.ts-error-translator",
+		"dbaeumer.vscode-eslint",
+		"pflannery.vscode-versionlens",
+		"GitHub.vscode-github-actions",
+		"WallabyJs.console-ninja",
+		"aaron-bond.better-comments",
+		"kamikillerto.vscode-colorize",
+		"dsznajder.es7-react-js-snippets",
+		"burkeholland.simple-react-snippets",
+		"FernandoTheRojo.nandorojo-tamagui",
+		"ronba.vscode-rive-viewer",
+		"shd101wyy.markdown-preview-enhanced"
+	]
+}

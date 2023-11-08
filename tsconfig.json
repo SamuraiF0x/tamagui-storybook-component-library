@@ -1,0 +1,54 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"useDefineForClassFields": true,
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"module": "ESNext",
+		"skipLibCheck": true,
+
+		/* Bundler mode */
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+
+		/* Linting */
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+
+		"plugins": [
+			{
+				"name": "@nderscore/tamagui-typescript-plugin",
+				// relative or absolute path to a tamagui app (parent folder of .tamagui)
+				"pathToApp": ".",
+				// the default theme to show for theme tokens when inlined
+				"defaultTheme": "dark",
+				// the size (in pixels) of color tiles in previews
+				"colorTileSize": 18,
+				// options for filtering autocomplete suggestions
+				"completionFilters": {
+					// set false to hide non-theme color tokens
+					"showColorTokens": true,
+					// set false to hide $true and $-true tokens from all scales
+					"showTrueTokens": true,
+					// per-scale lists of specific token names to exclude from autocomplete results
+					"custom": {
+						// "themeColor": [],
+						// "color": [],
+						// "size": [],
+						// "space": [],
+						// "radius": [],
+						// "zIndex": []
+					}
+				}
+			}
+		]
+	},
+
+	"include": ["src"],
+	"references": [{ "path": "./tsconfig.node.json" }]
+}
