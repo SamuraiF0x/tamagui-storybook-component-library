@@ -37,7 +37,7 @@ npm i
 ```
 
 > [!IMPORTANT]
-> Accept all VSCode extensions
+> Accept all VSCode extensions for better development experience
 
 <br>
 
