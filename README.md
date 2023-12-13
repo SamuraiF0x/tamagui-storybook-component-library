@@ -20,6 +20,10 @@
 
 <br>
 
+## 🍿 Components preview
+
+<br>
+
 <div align="center" padding="25px">
    <img src="/public/preview.png" width="100%" height="100%">
 </div>
