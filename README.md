@@ -1,4 +1,4 @@
-# NioWave Design
+# Component library
 
 > [!NOTE]
 >
